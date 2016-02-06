@@ -1,0 +1,399 @@
+/*--
+    Theme Name: crystalbeach.com
+    Theme URI: http://info.template-help.com/help/
+    Description: A theme for Wordpress 3.8.x
+    Author: Russ Berge
+    Author URI: http://info.template-help.com/help/
+    Template: CherryFramework
+    Version: 3.1.5
+--*/
+
+/*******************************************************************************
+Header
+*******************************************************************************/
+#motopress-main > header > div > div.row > div{
+    width: 100%;
+    margin:70px 40px;
+}
+.header{
+    padding: 0 !important;
+    border-bottom: none !important;
+    height: 140px !important;
+}
+.nav{
+    margin-bottom:0;
+}
+#topnav{
+    position: absolute;
+    background: #062c5f;
+    width:100%;
+    top: -190px;
+}
+.logo_link {
+    display: block;
+    
+}
+.logoImage{
+    float: left;
+    display: block;
+    position: absolute;
+    top: 10px;    
+}
+.logoImage img {
+    
+}
+.logo{
+    left: 28%;
+    top: -180px;
+    
+}
+#motopress-main > header > div > div.row > div > div:nth-child(2){
+    width: 100%
+}
+.logo_h__txt, .logo_link {
+    color: #fadb7b !important;
+}
+.socialIcons {
+   float: right; 
+   display: block;
+   margin: 50px 10px;
+}
+.socialIcons ul {
+    list-style-type: none;
+}
+.socialIcons ul li{
+    display: inline; 
+}
+.sf-menu {
+    float: left;
+    width: 100%;
+}
+.sf-menu > li.current-menu-item > a, .sf-menu > li.current_page_item > a {
+    background: none !important;
+    color:#fadb7b !important;
+}
+.sf-menu > li {
+    background: none !important;
+    width: 15em;
+}
+.sf-menu > li > a {
+    color: #fff !important;
+    border-top: none !important;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+#menu-item-13 > a {
+    border-left:none;
+}
+.sf-menu > li > a:active {
+    color: #fadb7b !important;
+}
+#motopress-main > div > div:nth-child(2) > div{
+    width: 100vw;
+}
+/*******************************************************************************
+Body
+*******************************************************************************/
+.container{
+    width: 1200px;
+}
+/*******************************************************************************
+Footer
+*******************************************************************************/
+.page-template-page-home .footer{
+    background: #062c5f !important;
+    border-top:none !important;
+    top: -400px;
+    left: 2%;
+}
+.footer{
+    background: #062c5f !important; 
+    border-top:none !important;
+}
+.footer-text{
+    color:#fff;
+}
+.footer-widgets{
+    color: #fff;
+    display: block;
+}
+.footerBox{
+    background: #b7b7b7;
+    margin: 10px;
+    display: block;
+    height: 100px;
+    text-align: center;
+}
+/*******************************************************************************
+HomePage Content
+*******************************************************************************/
+.slider{
+    top:-240px;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+    margin: -97px -40% 0 0 !important;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    margin: 20px 30px;
+    position: relative;
+    text-indent: -9999px;
+}
+.searchBox {
+    background: #00b3ec;
+    border: solid 1px #15418e;
+    display: block;
+    height: 150px;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.recentHeadlines {
+    background: #c0362c;
+    text-align: center;
+    text-transform: capitalize;
+    color:#fff;
+    width: 100%;
+    
+}
+.recentHeadlines h3{
+    text-align: center;
+    text-transform: capitalize;
+    color:#fff;
+}
+#cblnHeader{
+   color: #0e9ad9;
+   border-radius: 2px;
+}
+ ul {
+   padding: 0;
+   margin: -30px 0 0px 25px !important; 
+}
+#cblnHeader li {
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.camera_caption > div {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: -40px;
+    background: #062c5f;
+}
+.homepageContainer h2{
+    margin: 10px;
+    font-size: 1.5 em;
+}
+.homepageContainer{
+    top: -340px;
+    left: 25px;
+    display: block;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 1000
+}
+.homepageContainer p{
+  margin: 10px;  
+}
+.topRow{
+    border-bottom: solid 5px #ccc;
+    width:90%;
+    margin-left:5%;
+    margin-bottom: 10px;
+}
+.linkBox {
+    max-width: 300px;
+}
+.linkBox img{
+    width: 100%;
+}
+#eventsCalendar{
+    background:#00b3ec;
+    width: 100%;
+    margin-top: -15px;
+}
+#eventsCalendar h3{
+    text-align: center;
+    text-transform: capitalize;
+    color:#000;
+    height:30px;
+    padding-top: 10px;
+}
+#historyInfo{
+    background:#ffab4d;
+    width: 100%;
+    margin-top: -15px;
+}
+#historyInfo h3 {
+   text-align: center;
+   text-transform: capitalize;
+   color:#000;
+   height:30px;
+   padding-top: 10px; 
+}
+#post-4 > div.homepageContainer > div:nth-child(6) > div:nth-child(1) > div {
+   margin-left: 55px;
+}
+#post-4 > div.homepageContainer > div:nth-child(7) > div:nth-child(2){
+   left: 30px 
+}
+#post-4 > div.homepageContainer > div:nth-child(7) > div:nth-child(3){
+   left: 10px; 
+}
+#dailyPhotos{
+   background:#ffed35;
+   width: 100%;
+   margin-top: -15px; 
+}
+#dailyPhotos h3{
+   text-align: center;
+   text-transform: capitalize;
+   color:#000;
+   height:30px;
+   padding-top: 10px;  
+}
+#liveWeb{
+   background:#8bc44f;
+   width: 100%;
+   margin-top: -15px;   
+}
+#liveWeb h3{
+   text-align: center;
+   text-transform: capitalize;
+   color:#000;
+   height:30px;
+   padding-top: 10px;  
+}
+.adblock{
+  background: #ccc;
+  height: 119px;
+  margin-bottom: 10px;
+}
+.adblock p{
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0 ;
+}
+.bottomAds1 {
+  background: #ffab4d;
+  text-align: center;
+}
+.bottomAds2 {
+  background: #00b3ec;
+  text-align: center;
+}
+.bottomAds3 {
+  background: #ffd80c;
+  text-align: center;
+}
+.bottomAds4 {
+  background: #ff5f2b;
+  text-align: center;
+}
+.bottomAds5 {
+  background: #8bc44f;
+  text-align: center;
+}
+#post-4 > div.homepageContainer > div:nth-child(4) > div:nth-child(1) {
+    left: 0;
+}
+/*******************************************************************************
+Properties
+*******************************************************************************/
+.post__holder .post_content {
+    background: #fff;
+}
+/*******************************************************************************
+Media Queries
+*******************************************************************************/
+@media only screen and (max-width: 1200px) {
+   .container {
+    width: 1024px;
+} 
+.sf-menu > li {
+    background: none !important;
+    width: 12em;
+} 
+.homepageContainer {
+    left:40px;
+}
+.camera_wrap{
+    left:-10px;
+}
+.linkBox {
+    max-width: 250px;
+}
+.page-template-page-home .footer {
+    left:4%;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (orientation : landscape){ 
+    .slider{
+        left:5px;
+}
+.sf-menu > li {
+    background: none !important;
+    width: 12em !important;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    .container {
+    width: 768px;
+}
+.sf-menu > li {
+    background: none !important;
+    width: 10em !important;
+}
+#topline{
+    left:-35px;
+}
+.slider{
+    left:5px;
+}
+.bottomAds1 h3, .bottomAds2 h3, .bottomAds3 h3, .bottomAds4 h3, .bottomAds5 h3{
+    font-size:12px !important;
+}
+.linkBox {
+    max-width: 200px;
+}
+#cblnHeader li {
+    line-height: 22px;
+}
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation : landscape){ 
+.container {
+    width: 667px;
+}
+.socialIcons {
+     margin: 50px 70px 0 0;
+}
+.header{
+    background-color: none !important;
+}
+} 
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) {
+.container {
+    width: 375px;
+}
+}
